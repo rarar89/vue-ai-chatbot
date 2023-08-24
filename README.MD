@@ -27,7 +27,7 @@ or
 4. Example implementation (update <your_discussion_endpoint> accordingly):
 
 main.ts
-```vuejs
+```vuets
 
 import { createApp } from 'vue'
 import App from './ChatComponent.vue'
@@ -40,7 +40,7 @@ app.mount('#app')
 ```
 
 ChatComponent.vue
-```vuejs
+```vuets
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useChatBot, usePending } from 'vue-ai-chatbot';
@@ -48,9 +48,9 @@ import { useChatBot, usePending } from 'vue-ai-chatbot';
 const { sendMessage, messages } = useChatBot(); 
 const { pending } = usePending();
 const chatMessages = messages;
-const userInput = ref('');
+const userInput = ref<string>('');
 
-function sendMessageHandler() {
+function sendMessageHandler():void {
   sendMessage(userInput.value);
   userInput.value = '';
 }
