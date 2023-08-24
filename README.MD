@@ -29,13 +29,13 @@ or
 main.ts
 ```vuets
 
-import { createApp } from 'vue'
-import App from './ChatComponent.vue'
+import { createApp } from 'vue';
+import App from './ChatComponent.vue';
 import { chatBot } from 'vue-ai-chatbot';
 
-const app = createApp(App)
-app.use(chatBot, {endpoint: '<your_discussion_endpoint>'})
-app.mount('#app')
+const app = createApp(App);
+app.use(chatBot, {endpoint: '<your_discussion_endpoint>'});
+app.mount('#app');
 
 ```
 
