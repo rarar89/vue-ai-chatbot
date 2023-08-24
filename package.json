@@ -1,6 +1,6 @@
 {
   "name": "vue-ai-chatbot",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Vue AI ChatBot using chatlas.ai service",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -12,6 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarar89/vue-ai-chatbot.git"
+  },
   "dependencies": {
     "@microsoft/fetch-event-source": "^2.0.1",
     "pinia": "^2.1.6",
