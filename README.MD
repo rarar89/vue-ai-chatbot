@@ -47,7 +47,6 @@ import { useChatBot, usePending } from 'vue-ai-chatbot';
 
 const { sendMessage, messages } = useChatBot(); 
 const { pending } = usePending();
-const chatMessages = messages;
 const userInput = ref<string>('');
 
 function sendMessageHandler():void {
@@ -58,7 +57,7 @@ function sendMessageHandler():void {
 <template>
   <div>
     <h1>Chatbot</h1>
-    <div v-for="(message, index) in chatMessages" :key="index">
+    <div v-for="(message, index) in messages" :key="index">
       {{ message.type }}: {{ message.message }}
     </div>
     <div v-show="!!pending">bot: {{ pending }}</div>
