@@ -1,6 +1,6 @@
 {
   "name": "vue-ai-chatbot",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Vue AI ChatBot using chatlas.ai service",
   "source": "src/index.ts",
   "main": "dist/main.js",
