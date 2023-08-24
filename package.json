@@ -1,6 +1,6 @@
 {
   "name": "vue-ai-chatbot",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Vue AI ChatBot using chatlas.ai service",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "repository": {
@@ -29,5 +28,13 @@
     "@parcel/transformer-typescript-types": "2.9.3",
     "parcel": "^2.9.3",
     "typescript": "^5.1.6"
-  }
+  },
+  "keywords": [
+    "vue",
+    "ai",
+    "chatbot",
+    "openai",
+    "gpt4",
+    "gpt3"
+  ],
 }
