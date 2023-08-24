@@ -34,7 +34,7 @@ import App from './ChatComponent.vue'
 import { chatBot } from 'vue-ai-chatbot';
 
 const app = createApp(App)
-app.use(router).use(chatBot, {endpoint: '<your_discussion_endpoint>'})
+app.use(chatBot, {endpoint: '<your_discussion_endpoint>'})
 app.mount('#app')
 
 ```
