@@ -4,7 +4,7 @@ Simple Vue AI Chatbot based on GPT-3 or GPT-4 OpenAI models to chat with your da
 
 [Chatlas.ai](https://chatlas.ai) is used to set discussion context and settings!
 
-**It's recommended to have your own Open AI Api Key to use React AI ChatBot! You can get your key [here](https://platform.openai.com/account/api-keys).**
+**It's recommended to have your own Open AI Api Key to use Vue AI ChatBot! You can get your key [here](https://platform.openai.com/account/api-keys).**
 
 ## Install
 
